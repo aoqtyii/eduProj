@@ -1,0 +1,3102 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:15:06
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           9	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		     816	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    3695	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		     935	dashboard.js100%  
+	    新文件    		    1485	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    9904	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        22        21         1         0         0         0
+       文件:        33        33         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           63,230,575 字节/秒。
+       速度:            3,618.083 MB/分钟。
+   已结束: 2025年4月25日 19:15:06
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:16:45
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           9	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		     816	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    3695	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		     935	dashboard.js100%  
+	    新文件    		    1485	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    9904	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        22        21         1         0         0         0
+       文件:        33        33         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           76,643,121 字节/秒。
+       速度:            4,385.555 MB/分钟。
+   已结束: 2025年4月25日 19:16:45
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:16:45
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           4	D:\AIProjects\AIEducationBackend\
+	    新文件    		       0	.env
+	    新文件    		    2366	create.sql100%  
+	    新文件    		     957	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3181	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    2300	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    4452	dashboard.py100%  
+	    新文件    		    3946	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    2975	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     296	__init__.py100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     280	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1258	course.py100%  
+	    新文件    		    1541	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		     665	__init__.py100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        14        13         1         0         0         0
+       文件:        53        53         0         0         0         0
+       字节:    80.0 k    80.0 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,638,520 字节/秒。
+       速度:              93.757 MB/分钟。
+   已结束: 2025年4月25日 19:16:45
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:17:12
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           9	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		     816	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    3695	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		     935	dashboard.js100%  
+	    新文件    		    1485	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    9904	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        22        21         1         0         0         0
+       文件:        33        33         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           70,256,194 字节/秒。
+       速度:            4,020.092 MB/分钟。
+   已结束: 2025年4月25日 19:17:12
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:17:12
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           4	D:\AIProjects\AIEducationBackend\
+	    新文件    		       0	.env
+	    新文件    		    2366	create.sql100%  
+	    新文件    		     957	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3181	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    2300	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    4452	dashboard.py100%  
+	    新文件    		    3946	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    2975	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     296	__init__.py100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     280	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1258	course.py100%  
+	    新文件    		    1541	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		     665	__init__.py100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        14        13         1         0         0         0
+       文件:        53        53         0         0         0         0
+       字节:    80.0 k    80.0 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,638,520 字节/秒。
+       速度:              93.757 MB/分钟。
+   已结束: 2025年4月25日 19:17:12
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:18:01
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           9	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		     816	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    3695	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		     935	dashboard.js100%  
+	    新文件    		    1485	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    9904	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        22        21         1         0         0         0
+       文件:        33        33         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           68,357,378 字节/秒。
+       速度:            3,911.441 MB/分钟。
+   已结束: 2025年4月25日 19:18:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月25日 19:18:02
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           4	D:\AIProjects\AIEducationBackend\
+	    新文件    		       0	.env
+	    新文件    		    2366	create.sql100%  
+	    新文件    		     957	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3181	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    2300	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    4452	dashboard.py100%  
+	    新文件    		    3946	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    2975	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     296	__init__.py100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     280	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1258	course.py100%  
+	    新文件    		    1541	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		     665	__init__.py100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        14        13         1         0         0         0
+       文件:        53        53         0         0         0         0
+       字节:    80.0 k    80.0 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,671,959 字节/秒。
+       速度:              95.670 MB/分钟。
+   已结束: 2025年4月25日 19:18:02
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 11:49:05
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    3695	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		     935	dashboard.js100%  
+	    新文件    		    1485	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    9904	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        22        21         1         0         0         0
+       文件:        34        34         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           54,988,478 字节/秒。
+       速度:            3,146.466 MB/分钟。
+   已结束: 2025年4月26日 11:49:05
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 11:49:05
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		    4655	create.sql100%  
+	    新文件    		    1133	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    3060	init.sql100%  
+	    新文件    		    3057	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    4967	dashboard.py100%  
+	    新文件    		    3946	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    2761	courses.cpython-310.pyc100%  
+	    新文件    		    2629	dashboard.cpython-310.pyc100%  
+	    新文件    		    2483	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    2975	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     296	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2297	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    2999	crud_progress.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     414	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     280	__init__.py100%  
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     455	__init__.cpython-310.pyc100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1258	course.py100%  
+	    新文件    		    1541	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		     665	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    1640	course.cpython-310.pyc100%  
+	    新文件    		    1522	enrollment.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		     833	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1272	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:        97        97         0         0         0         0
+       字节:   147.2 k   147.2 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,358,774 字节/秒。
+       速度:              77.750 MB/分钟。
+   已结束: 2025年4月26日 11:49:05
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 12:23:42
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9009	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    4724	index.js100%  
+	  新目录           8	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    5439	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:        35        35         0         0         0         0
+       字节:    2.41 m    2.41 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           52,794,687 字节/秒。
+       速度:            3,020.936 MB/分钟。
+   已结束: 2025年4月26日 12:23:42
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 12:23:42
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		    4655	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    3060	init.sql100%  
+	    新文件    		    3057	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    2761	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     296	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    2999	crud_progress.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     414	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     280	__init__.py100%  
+	  新目录           7	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     455	__init__.cpython-310.pyc100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		     699	__init__.py100%  
+	  新目录           8	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		     886	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1272	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:        97        97         0         0         0         0
+       字节:   151.1 k   151.1 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,502,495 字节/秒。
+       速度:              85.973 MB/分钟。
+   已结束: 2025年4月26日 12:23:42
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 13:01:03
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9012	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    4960	index.js100%  
+	  新目录           9	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3750	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    5439	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    3838	PracticeListPage.vue100%  
+	    新文件    		    6031	PracticeResultsPage.vue100%  
+	    新文件    		    8794	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:        39        39         0         0         0         0
+       字节:    2.43 m    2.43 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           53,266,604 字节/秒。
+       速度:            3,047.939 MB/分钟。
+   已结束: 2025年4月26日 13:01:03
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 13:01:03
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		    9251	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    3060	init.sql100%  
+	    新文件    		    3163	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		   13452	practice.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    2761	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    7602	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   10578	crud_practice.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     444	__init__.py100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7421	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2999	crud_progress.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     575	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1466	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     545	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1567	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     733	__init__.cpython-310.pyc100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1098	__init__.py100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1399	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1347	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:       113       113         0         0         0         0
+       字节:   219.0 k   219.0 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,794,776 字节/秒。
+       速度:             102.698 MB/分钟。
+   已结束: 2025年4月26日 13:01:03
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 13:21:19
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\layout\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9012	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    4960	index.js100%  
+	  新目录           9	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    5439	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:        39        39         0         0         0         0
+       字节:    2.44 m    2.44 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           54,586,063 字节/秒。
+       速度:            3,123.440 MB/分钟。
+   已结束: 2025年4月26日 13:21:19
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 13:21:19
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		    9251	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3850	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    9165	init.sql100%  
+	    新文件    		    3163	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4023	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5308	lessons.py100%  
+	    新文件    		   13462	practice.py100%  
+	    新文件    		    1819	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    2761	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    7620	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     926	crud_lesson.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   10671	crud_practice.py100%  
+	    新文件    		    3866	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     444	__init__.py100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7445	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2999	crud_progress.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     575	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1717	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     545	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1650	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     733	__init__.cpython-310.pyc100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1098	__init__.py100%  
+	  新目录           9	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1399	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1347	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:       113       113         0         0         0         0
+       字节:   225.8 k   225.8 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,663,517 字节/秒。
+       速度:              95.187 MB/分钟。
+   已结束: 2025年4月26日 13:21:19
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 14:11:02
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   84011	package-lock.json100%  
+	    新文件    		     569	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           1	D:\AIProjects\AIEducation\src\components\layout\
+	    新文件    		    1621	Sidebar.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9373	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    5631	index.js100%  
+	  新目录          10	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3593	mistakeNotebook.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    6897	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\lessons\
+	    新文件    		   10199	LessonViewPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\mistakes\
+	    新文件    		   14909	MistakeNotebookPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        26        25         1         0         0         0
+       文件:        43        43         0         0         0         0
+       字节:    2.47 m    2.47 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           44,039,949 字节/秒。
+       速度:            2,519.986 MB/分钟。
+   已结束: 2025年4月26日 14:11:02
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 14:11:02
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		   10957	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    9165	init.sql100%  
+	    新文件    		    3317	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4878	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5261	lessons.py100%  
+	    新文件    		    6308	mistake_notebook.py100%  
+	    新文件    		   13563	practice.py100%  
+	    新文件    		    1920	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    3110	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    4169	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    7639	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     927	crud_lesson.py100%  
+	    新文件    		    5711	crud_mistake_notebook.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   11875	crud_practice.py100%  
+	    新文件    		    3806	crud_progress.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     505	__init__.py100%  
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    3761	crud_mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7593	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2941	crud_progress.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     643	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		    1738	mistake_notebook_entry.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1795	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     605	__init__.py100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		    1537	mistake_notebook_entry.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1698	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     800	__init__.cpython-310.pyc100%  
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		    1642	mistake_notebook.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1261	__init__.py100%  
+	  新目录          10	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		    1912	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1571	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		       0	__init__.py
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1439	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        23        22         1         0         0         0
+       文件:       121       121         0         0         0         0
+       字节:   256.8 k   256.8 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,502,805 字节/秒。
+       速度:              85.991 MB/分钟。
+   已结束: 2025年4月26日 14:11:02
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 14:33:21
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   85276	package-lock.json100%  
+	    新文件    		     650	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           2	D:\AIProjects\AIEducation\src\components\charts\
+	    新文件    		     563	BarChart.vue100%  
+	    新文件    		    2343	PeiChart.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           1	D:\AIProjects\AIEducation\src\components\layout\
+	    新文件    		    1621	Sidebar.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9373	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    5939	index.js100%  
+	  新目录          11	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2305	aiAnalysis.js100%  
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3593	mistakeNotebook.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           1	D:\AIProjects\AIEducation\src\views\analysis\
+	    新文件    		    9906	StudentAIDashboard.vue100%  
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    6897	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\lessons\
+	    新文件    		   10199	LessonViewPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\mistakes\
+	    新文件    		   14909	MistakeNotebookPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        28        27         1         0         0         0
+       文件:        47        47         0         0         0         0
+       字节:    2.49 m    2.49 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           45,088,413 字节/秒。
+       速度:            2,579.980 MB/分钟。
+   已结束: 2025年4月26日 14:33:21
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 14:33:21
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		   13626	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		    9165	init.sql100%  
+	    新文件    		    3430	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    3741	ai_analysis.py100%  
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4878	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5261	lessons.py100%  
+	    新文件    		    6308	mistake_notebook.py100%  
+	    新文件    		   13563	practice.py100%  
+	    新文件    		    1920	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    2767	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    3110	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    4169	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    7639	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     990	crud_knowledge_point.py100%  
+	    新文件    		     927	crud_lesson.py100%  
+	    新文件    		    5711	crud_mistake_notebook.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   11875	crud_practice.py100%  
+	    新文件    		    3806	crud_progress.py100%  
+	    新文件    		    1640	crud_recommendation.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     605	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		     987	crud_knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    3761	crud_mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7593	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2941	crud_progress.cpython-310.pyc100%  
+	    新文件    		    1908	crud_recommendation.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     761	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1467	knowledge_point.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		    1738	mistake_notebook_entry.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1835	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1217	recommendation.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     718	__init__.py100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1610	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		    1537	mistake_notebook_entry.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1768	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1198	recommendation.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     940	__init__.cpython-310.pyc100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1858	ai_analysis.py100%  
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		     448	knowledge_point.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		    1642	mistake_notebook.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     807	recommendation.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1537	__init__.py100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    2502	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1014	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		    1912	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		    1483	recommendation.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1828	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		    8517	ai_analysis_service.py100%  
+	    新文件    		    5464	recommendation_service.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\__pycache__\
+	    新文件    		    4353	ai_analysis_service.cpython-310.pyc100%  
+	    新文件    		    3505	recommendation_service.cpython-310.pyc100%  
+	    新文件    		     150	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1516	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:       142       142         0         0         0         0
+       字节:   307.2 k   307.2 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,839,707 字节/秒。
+       速度:             105.269 MB/分钟。
+   已结束: 2025年4月26日 14:33:21
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 15:04:05
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   85763	package-lock.json100%  
+	    新文件    		     698	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           2	D:\AIProjects\AIEducation\src\components\charts\
+	    新文件    		     563	BarChart.vue100%  
+	    新文件    		    2343	PeiChart.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           1	D:\AIProjects\AIEducation\src\components\layout\
+	    新文件    		    1621	Sidebar.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9373	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    5939	index.js100%  
+	  新目录          11	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2305	aiAnalysis.js100%  
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3593	mistakeNotebook.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           1	D:\AIProjects\AIEducation\src\views\analysis\
+	    新文件    		   20892	StudentAIDashboard.vue100%  
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    6897	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		    7353	DashboardPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\lessons\
+	    新文件    		   10199	LessonViewPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\mistakes\
+	    新文件    		   14909	MistakeNotebookPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        28        27         1         0         0         0
+       文件:        47        47         0         0         0         0
+       字节:    2.50 m    2.50 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           36,995,056 字节/秒。
+       速度:            2,116.874 MB/分钟。
+   已结束: 2025年4月26日 15:04:05
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 15:04:05
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		   13626	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3853	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		   16210	init.sql100%  
+	    新文件    		    3430	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    3741	ai_analysis.py100%  
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4878	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5261	lessons.py100%  
+	    新文件    		    6308	mistake_notebook.py100%  
+	    新文件    		   13563	practice.py100%  
+	    新文件    		    1920	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    2767	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    3110	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    4169	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    7639	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     990	crud_knowledge_point.py100%  
+	    新文件    		     927	crud_lesson.py100%  
+	    新文件    		    5711	crud_mistake_notebook.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   11875	crud_practice.py100%  
+	    新文件    		    3806	crud_progress.py100%  
+	    新文件    		    1640	crud_recommendation.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     605	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		     987	crud_knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    3761	crud_mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7593	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2941	crud_progress.cpython-310.pyc100%  
+	    新文件    		    1908	crud_recommendation.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     761	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1467	knowledge_point.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		    1738	mistake_notebook_entry.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1835	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1217	recommendation.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     718	__init__.py100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1610	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		    1537	mistake_notebook_entry.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1768	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1198	recommendation.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     940	__init__.cpython-310.pyc100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    1858	ai_analysis.py100%  
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		     448	knowledge_point.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		    1642	mistake_notebook.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     807	recommendation.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1537	__init__.py100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    2502	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1014	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		    1912	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		    1483	recommendation.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1828	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		    8517	ai_analysis_service.py100%  
+	    新文件    		    5464	recommendation_service.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\__pycache__\
+	    新文件    		    4353	ai_analysis_service.cpython-310.pyc100%  
+	    新文件    		    3505	recommendation_service.cpython-310.pyc100%  
+	    新文件    		     150	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1516	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:       142       142         0         0         0         0
+       字节:   314.3 k   314.3 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,659,463 字节/秒。
+       速度:              94.955 MB/分钟。
+   已结束: 2025年4月26日 15:04:05
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 15:54:19
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   85763	package-lock.json100%  
+	    新文件    		     698	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           3	D:\AIProjects\AIEducation\src\components\charts\
+	    新文件    		     699	BarChart.vue100%  
+	    新文件    		     783	LineChart.vue100%  
+	    新文件    		    2343	PeiChart.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           1	D:\AIProjects\AIEducation\src\components\layout\
+	    新文件    		    1621	Sidebar.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9373	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    5939	index.js100%  
+	  新目录          11	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2243	aiAnalysis.js100%  
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3593	mistakeNotebook.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           1	D:\AIProjects\AIEducation\src\views\analysis\
+	    新文件    		   20892	StudentAIDashboard.vue100%  
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    6897	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		   27762	DashboardPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\lessons\
+	    新文件    		   10199	LessonViewPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\mistakes\
+	    新文件    		   14909	MistakeNotebookPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        28        27         1         0         0         0
+       文件:        48        48         0         0         0         0
+       字节:    2.52 m    2.52 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           28,169,308 字节/秒。
+       速度:            1,611.861 MB/分钟。
+   已结束: 2025年4月26日 15:54:19
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 15:54:19
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		   13626	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		   16210	init.sql100%  
+	    新文件    		    3430	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    3597	ai_analysis.py100%  
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4878	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5261	lessons.py100%  
+	    新文件    		    6308	mistake_notebook.py100%  
+	    新文件    		   13563	practice.py100%  
+	    新文件    		    1920	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    2782	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    3110	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    4169	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    7639	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     990	crud_knowledge_point.py100%  
+	    新文件    		     927	crud_lesson.py100%  
+	    新文件    		    5711	crud_mistake_notebook.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   11875	crud_practice.py100%  
+	    新文件    		    3806	crud_progress.py100%  
+	    新文件    		    1640	crud_recommendation.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     605	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		     987	crud_knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    3761	crud_mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7593	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2941	crud_progress.cpython-310.pyc100%  
+	    新文件    		    1908	crud_recommendation.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     761	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1467	knowledge_point.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		    1738	mistake_notebook_entry.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1835	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1217	recommendation.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     718	__init__.py100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1610	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		    1537	mistake_notebook_entry.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1768	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1198	recommendation.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     940	__init__.cpython-310.pyc100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    3373	ai_analysis.py100%  
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		     448	knowledge_point.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		    1642	mistake_notebook.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     807	recommendation.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1417	__init__.py100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    3580	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1014	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		    1912	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		    1483	recommendation.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1772	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		   16336	ai_analysis_service.py100%  
+	    新文件    		    5464	recommendation_service.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\__pycache__\
+	    新文件    		    8196	ai_analysis_service.cpython-310.pyc100%  
+	    新文件    		    3505	recommendation_service.cpython-310.pyc100%  
+	    新文件    		     150	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1516	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:       142       142         0         0         0         0
+       字节:   327.7 k   327.7 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:             958,814 字节/秒。
+       速度:              54.864 MB/分钟。
+   已结束: 2025年4月26日 15:54:19
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 16:17:47
+        源: D:\AIProjects\AIEducation\
+      目标: D:\AIProjects\AIEducationAll\frontend\
+
+      文件: *.*
+	    
+  执行目录: node_modules
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录          10	D:\AIProjects\AIEducation\
+	    新文件    		       0	.env
+	    新文件    		       0	.env.development
+	    新文件    		       0	.env.production
+	    新文件    		       0	.gitignore
+	    新文件    		     380	index.html100%  
+	    新文件    		   85763	package-lock.json100%  
+	    新文件    		     698	package.json100%  
+	    新文件    		      56	startup.md100%  
+	    新文件    		    2986	structure.md100%  
+	    新文件    		    1007	vite.config.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\public\
+	  新目录           2	D:\AIProjects\AIEducation\src\
+	    新文件    		     697	App.vue100%  
+	    新文件    		     897	main.js100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\
+	  新目录           0	D:\AIProjects\AIEducation\src\assets\fonts\
+	  新目录           4	D:\AIProjects\AIEducation\src\assets\images\
+	    新文件    		  170318	ae692c7dd8f7dd9980be6f64ee4ccd84.jpg 76%   99%  100%  
+	    新文件    		   2.0 m	login-bg.jpg 23%   47%   71%   95%   99%  100%  
+	    新文件    		     946	logo-placeholder.svg100%  
+	    新文件    		     508	logo-small-placeholder.svg100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\assets\styles\
+	    新文件    		    4108	global.css100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\
+	  新目录           3	D:\AIProjects\AIEducation\src\components\charts\
+	    新文件    		     699	BarChart.vue100%  
+	    新文件    		     783	LineChart.vue100%  
+	    新文件    		    2343	PeiChart.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\components\common\
+	  新目录           1	D:\AIProjects\AIEducation\src\components\layout\
+	    新文件    		    1621	Sidebar.vue100%  
+	  新目录           0	D:\AIProjects\AIEducation\src\core\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\offline\
+	  新目录           0	D:\AIProjects\AIEducation\src\core\sync\
+	  新目录           2	D:\AIProjects\AIEducation\src\layouts\
+	    新文件    		    1505	AuthLayout.vue100%  
+	    新文件    		    9373	DefaultLayout.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\router\
+	    新文件    		    5938	index.js100%  
+	  新目录          11	D:\AIProjects\AIEducation\src\services\
+	    新文件    		    2243	aiAnalysis.js100%  
+	    新文件    		    2043	api.js100%  
+	    新文件    		    2878	auth.js100%  
+	    新文件    		    2262	course.js100%  
+	    新文件    		    1361	dashboard.js100%  
+	    新文件    		    1817	enrollment.js100%  
+	    新文件    		    2415	lesson.js100%  
+	    新文件    		    3593	mistakeNotebook.js100%  
+	    新文件    		    4695	practice.js100%  
+	    新文件    		     719	progress.js100%  
+	    新文件    		    1002	user.js100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\store\
+	    新文件    		    6174	auth.js100%  
+	    新文件    		     265	index.js100%  
+	    新文件    		       0	offline.js
+	  新目录           0	D:\AIProjects\AIEducation\src\utils\
+	  新目录           0	D:\AIProjects\AIEducation\src\views\
+	  新目录           1	D:\AIProjects\AIEducation\src\views\analysis\
+	    新文件    		   20894	StudentAIDashboard.vue100%  
+	  新目录           2	D:\AIProjects\AIEducation\src\views\auth\
+	    新文件    		    5718	ForgotPasswordPage.vue100%  
+	    新文件    		   13235	LoginPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\courses\
+	    新文件    		    6897	MyCoursesPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\dashboard\
+	    新文件    		   27762	DashboardPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\lessons\
+	    新文件    		   10199	LessonViewPage.vue100%  
+	  新目录           1	D:\AIProjects\AIEducation\src\views\mistakes\
+	    新文件    		   14909	MistakeNotebookPage.vue100%  
+	  新目录           3	D:\AIProjects\AIEducation\src\views\practice\
+	    新文件    		    4339	PracticeListPage.vue100%  
+	    新文件    		   10952	PracticeResultsPage.vue100%  
+	    新文件    		   11175	PracticeSessionPage.vue100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        28        27         1         0         0         0
+       文件:        48        48         0         0         0         0
+       字节:    2.52 m    2.52 m         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           19,469,970 字节/秒。
+       速度:            1,114.081 MB/分钟。
+   已结束: 2025年4月26日 16:17:48
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2025年4月26日 16:17:48
+        源: D:\AIProjects\AIEducationBackend\
+      目标: D:\AIProjects\AIEducationAll\backend\
+
+      文件: *.*
+	    
+  执行目录: venv
+	    
+      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  新目录           5	D:\AIProjects\AIEducationBackend\
+	    新文件    		      71	.env100%  
+	    新文件    		   13626	create.sql100%  
+	    新文件    		    1135	hash_password.py100%  
+	    新文件    		     955	requirements.txt100%  
+	    新文件    		    2472	structure.md100%  
+	  新目录           5	D:\AIProjects\AIEducationBackend\.idea\
+	    新文件    		      50	.gitignore100%  
+	    新文件    		     291	AIEducationBackend.iml100%  
+	    新文件    		     210	misc.xml100%  
+	    新文件    		     295	modules.xml100%  
+	    新文件    		    3552	workspace.xml100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\.idea\inspectionProfiles\
+	    新文件    		     174	profiles_settings.xml100%  
+	    新文件    		     919	Project_Default.xml100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\
+	    新文件    		   16210	init.sql100%  
+	    新文件    		    3430	main.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\
+	    新文件    		    3031	deps.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\
+	    新文件    		    3597	ai_analysis.py100%  
+	    新文件    		    5430	auth.py100%  
+	    新文件    		    4878	courses.py100%  
+	    新文件    		    6624	dashboard.py100%  
+	    新文件    		    3711	enrollments.py100%  
+	    新文件    		    5261	lessons.py100%  
+	    新文件    		    6308	mistake_notebook.py100%  
+	    新文件    		   13563	practice.py100%  
+	    新文件    		    1920	progress.py100%  
+	    新文件    		    2414	users.py100%  
+	    新文件    		       0	__init__.py
+	  新目录          11	D:\AIProjects\AIEducationBackend\app\api\endpoints\__pycache__\
+	    新文件    		    2782	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    4022	auth.cpython-310.pyc100%  
+	    新文件    		    3110	courses.cpython-310.pyc100%  
+	    新文件    		    4096	dashboard.cpython-310.pyc100%  
+	    新文件    		    2508	enrollments.cpython-310.pyc100%  
+	    新文件    		    3484	lessons.cpython-310.pyc100%  
+	    新文件    		    4169	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    7639	practice.cpython-310.pyc100%  
+	    新文件    		    1479	progress.cpython-310.pyc100%  
+	    新文件    		    1615	users.cpython-310.pyc100%  
+	    新文件    		     155	__init__.cpython-310.pyc100%  
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\api\__pycache__\
+	    新文件    		    2568	deps.cpython-310.pyc100%  
+	    新文件    		     145	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\
+	    新文件    		     556	config.py100%  
+	    新文件    		    1161	security.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\core\__pycache__\
+	    新文件    		     765	config.cpython-310.pyc100%  
+	    新文件    		    1455	security.cpython-310.pyc100%  
+	    新文件    		     146	__init__.cpython-310.pyc100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\
+	    新文件    		    2992	base.py100%  
+	    新文件    		    1543	crud_course.py100%  
+	    新文件    		    3016	crud_enrollment.py100%  
+	    新文件    		     990	crud_knowledge_point.py100%  
+	    新文件    		     927	crud_lesson.py100%  
+	    新文件    		    5711	crud_mistake_notebook.py100%  
+	    新文件    		    2235	crud_password_reset_token.py100%  
+	    新文件    		   11875	crud_practice.py100%  
+	    新文件    		    3806	crud_progress.py100%  
+	    新文件    		    1640	crud_recommendation.py100%  
+	    新文件    		    3203	crud_user.py100%  
+	    新文件    		     605	__init__.py100%  
+	  新目录          12	D:\AIProjects\AIEducationBackend\app\crud\__pycache__\
+	    新文件    		    2718	base.cpython-310.pyc100%  
+	    新文件    		    1651	crud_course.cpython-310.pyc100%  
+	    新文件    		    2367	crud_enrollment.cpython-310.pyc100%  
+	    新文件    		     987	crud_knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1125	crud_lesson.cpython-310.pyc100%  
+	    新文件    		    3761	crud_mistake_notebook.cpython-310.pyc100%  
+	    新文件    		    1954	crud_password_reset_token.cpython-310.pyc100%  
+	    新文件    		    7593	crud_practice.cpython-310.pyc100%  
+	    新文件    		    2941	crud_progress.cpython-310.pyc100%  
+	    新文件    		    1908	crud_recommendation.cpython-310.pyc100%  
+	    新文件    		    2735	crud_user.cpython-310.pyc100%  
+	    新文件    		     761	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\
+	    新文件    		     913	base_class.py100%  
+	    新文件    		    1605	session.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\db\__pycache__\
+	    新文件    		     806	base_class.cpython-310.pyc100%  
+	    新文件    		     853	session.cpython-310.pyc100%  
+	    新文件    		     144	__init__.cpython-310.pyc100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\
+	    新文件    		    1236	course.py100%  
+	    新文件    		    1078	enrollment.py100%  
+	    新文件    		    1467	knowledge_point.py100%  
+	    新文件    		    1101	lesson.py100%  
+	    新文件    		    1738	mistake_notebook_entry.py100%  
+	    新文件    		     723	password_reset_token.py100%  
+	    新文件    		    1004	practice_answer.py100%  
+	    新文件    		    1568	practice_attempt.py100%  
+	    新文件    		    1211	practice_module.py100%  
+	    新文件    		    1835	practice_question.py100%  
+	    新文件    		    1308	practice_session.py100%  
+	    新文件    		    1370	progress.py100%  
+	    新文件    		    1217	recommendation.py100%  
+	    新文件    		    1989	user.py100%  
+	    新文件    		     718	__init__.py100%  
+	  新目录          15	D:\AIProjects\AIEducationBackend\app\models\__pycache__\
+	    新文件    		    1139	course.cpython-310.pyc100%  
+	    新文件    		    1246	enrollment.cpython-310.pyc100%  
+	    新文件    		    1610	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1153	lesson.cpython-310.pyc100%  
+	    新文件    		    1537	mistake_notebook_entry.cpython-310.pyc100%  
+	    新文件    		     967	password_reset_token.cpython-310.pyc100%  
+	    新文件    		    1232	practice_answer.cpython-310.pyc100%  
+	    新文件    		    1530	practice_attempt.cpython-310.pyc100%  
+	    新文件    		    1367	practice_module.cpython-310.pyc100%  
+	    新文件    		    1768	practice_question.cpython-310.pyc100%  
+	    新文件    		    1485	practice_session.cpython-310.pyc100%  
+	    新文件    		    1410	progress.cpython-310.pyc100%  
+	    新文件    		    1198	recommendation.cpython-310.pyc100%  
+	    新文件    		    1414	user.cpython-310.pyc100%  
+	    新文件    		     940	__init__.cpython-310.pyc100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\
+	    新文件    		    3373	ai_analysis.py100%  
+	    新文件    		    1604	course.py100%  
+	    新文件    		    1567	enrollment.py100%  
+	    新文件    		     448	knowledge_point.py100%  
+	    新文件    		    1167	lesson.py100%  
+	    新文件    		    1642	mistake_notebook.py100%  
+	    新文件    		     270	password.py100%  
+	    新文件    		    4533	practice.py100%  
+	    新文件    		    1081	progress.py100%  
+	    新文件    		     807	recommendation.py100%  
+	    新文件    		     410	token.py100%  
+	    新文件    		    1848	user.py100%  
+	    新文件    		    1417	__init__.py100%  
+	  新目录          13	D:\AIProjects\AIEducationBackend\app\schemas\__pycache__\
+	    新文件    		    3580	ai_analysis.cpython-310.pyc100%  
+	    新文件    		    1978	course.cpython-310.pyc100%  
+	    新文件    		    1631	enrollment.cpython-310.pyc100%  
+	    新文件    		    1014	knowledge_point.cpython-310.pyc100%  
+	    新文件    		    1667	lesson.cpython-310.pyc100%  
+	    新文件    		    1912	mistake_notebook.cpython-310.pyc100%  
+	    新文件    		     666	password.cpython-310.pyc100%  
+	    新文件    		    5725	practice.cpython-310.pyc100%  
+	    新文件    		    1468	progress.cpython-310.pyc100%  
+	    新文件    		    1483	recommendation.cpython-310.pyc100%  
+	    新文件    		     636	token.cpython-310.pyc100%  
+	    新文件    		    1672	user.cpython-310.pyc100%  
+	    新文件    		    1772	__init__.cpython-310.pyc100%  
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\
+	    新文件    		   16336	ai_analysis_service.py100%  
+	    新文件    		    5464	recommendation_service.py100%  
+	    新文件    		       0	__init__.py
+	  新目录           3	D:\AIProjects\AIEducationBackend\app\services\__pycache__\
+	    新文件    		    8196	ai_analysis_service.cpython-310.pyc100%  
+	    新文件    		    3505	recommendation_service.cpython-310.pyc100%  
+	    新文件    		     150	__init__.cpython-310.pyc100%  
+	  新目录           1	D:\AIProjects\AIEducationBackend\app\utils\
+	    新文件    		       0	__init__.py
+	  新目录           2	D:\AIProjects\AIEducationBackend\app\__pycache__\
+	    新文件    		    1516	main.cpython-310.pyc100%  
+	    新文件    		     141	__init__.cpython-310.pyc100%  
+	  新目录           0	D:\AIProjects\AIEducationBackend\test\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:        24        23         1         0         0         0
+       文件:       142       142         0         0         0         0
+       字节:   327.7 k   327.7 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:           1,075,592 字节/秒。
+       速度:              61.546 MB/分钟。
+   已结束: 2025年4月26日 16:17:48
+

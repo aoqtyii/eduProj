@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <style>
+    .bg { fill: #f8f9fa; } /* Optional background */
+    .icon-shape { fill: #409EFF; } /* Element Plus Blue */
+    .text {
+      fill: #304156; /* Dark color, matches sidebar text theme */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      dominant-baseline: central;
+      text-anchor: start; /* Align text to the start (left) */
+    }
+  </style>
+
+  <g transform="translate(10, 5)">
+    <rect class="icon-shape" x="0" y="2" width="24" height="5" rx="1"/>
+    <rect class="icon-shape" x="0" y="10" width="24" height="5" rx="1"/>
+    <rect class="icon-shape" x="0" y="18" width="18" height="5" rx="1"/>
+    <rect class="icon-shape" x="0" y="26" width="18" height="5" rx="1"/>
+  </g>
+
+  <text x="45" y="20" class="text">LOGO</text>
+
+</svg>
