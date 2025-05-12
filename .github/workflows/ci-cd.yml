@@ -1,0 +1,211 @@
+name: AI Education Platform CI/CD
+
+# 触发工作流程的事件
+on:
+  push:
+    branches:
+      - main # 当代码推送到 main 分支时触发
+      - develop # 当代码推送到 develop 分支时触发
+  pull_request:
+    branches:
+      - main # 当向 main 分支创建 Pull Request 时触发
+      - develop # 当向 develop 分支创建 Pull Request 时触发
+  workflow_dispatch: # 允许手动触发
+
+# 定义环境变量，方便在多个 job 中共享
+env:
+  PYTHON_VERSION: '3.10' # 与 backend/project_manifest.yaml 中一致
+  NODE_VERSION: '18' # 与 frontend/project_manifest.yaml 中一致
+  FRONTEND_DIR: ./AIEducation # 前端项目目录
+  BACKEND_DIR: ./AIEducationBackend # 后端项目目录
+
+jobs:
+  #----------------------------------------------------
+  # 前端 CI (代码检查, 测试, 构建)
+  #----------------------------------------------------
+  frontend-ci:
+    name: Frontend CI
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行器
+
+    defaults:
+      run:
+        working-directory: ${{ env.FRONTEND_DIR }} # 设置此 job 的默认工作目录
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # 拉取代码
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm' # 启用 npm 依赖缓存，基于 package-lock.json
+          cache-dependency-path: ${{ env.FRONTEND_DIR }}/package-lock.json # 指定缓存依赖路径
+
+      - name: Install frontend dependencies
+        run: npm install # 或者 yarn install, pnpm install
+
+      # - name: Lint frontend code (可选，如果定义了 lint 脚本)
+      #   run: npm run lint # 确保 package.json 中有 "lint" 脚本
+
+      # - name: Run frontend unit tests (可选，如果定义了 test:unit 脚本)
+      #   run: npm run test:unit # 确保 package.json 中有 "test:unit" 脚本
+
+      - name: Build frontend application
+        run: npm run build # 执行构建命令
+
+      - name: Upload frontend build artifact (可选，用于后续部署)
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: ${{ env.FRONTEND_DIR }}/dist # 上传构建产物 dist 目录
+
+  #----------------------------------------------------
+  # 后端 CI (代码检查, 测试, 构建 Docker 镜像)
+  #----------------------------------------------------
+  backend-ci:
+    name: Backend CI
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行器
+
+    defaults:
+      run:
+        working-directory: ${{ env.BACKEND_DIR }} # 设置此 job 的默认工作目录
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # 拉取代码
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip' # 启用 pip 依赖缓存
+          cache-dependency-path: ${{ env.BACKEND_DIR }}/requirements.txt # 指定缓存依赖路径
+
+      - name: Install backend dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # - name: Lint backend code (可选, 推荐使用 flake8, black, isort 等)
+      #   run: |
+      #     pip install flake8 black isort
+      #     flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+      #     black . --check
+      #     isort . --check-only
+
+      # - name: Run backend unit tests (可选, 推荐使用 pytest)
+      #   run: |
+      #     pip install pytest pytest-asyncio # pytest-asyncio 用于异步测试
+      #     pytest
+
+      # --- 后端 Docker 镜像构建 ---
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to Docker Hub (可选，如果需要推送到 Docker Hub)
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') # 仅在推送到 main 或 develop 分支时登录
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }} # 在 GitHub Secrets 中配置 DOCKERHUB_USERNAME
+          password: ${{ secrets.DOCKERHUB_TOKEN }}    # 在 GitHub Secrets 中配置 DOCKERHUB_TOKEN (Access Token)
+
+      - name: Build and push backend Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: ${{ env.BACKEND_DIR }} # Dockerfile 的上下文路径
+          file: ${{ env.BACKEND_DIR }}/Dockerfile # 指定 Dockerfile 路径 (假设存在)
+          push: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') }} # 仅在推送到 main 或 develop 分支时推送
+          tags: | # Docker 镜像标签
+            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ github.sha }} # 使用 Git SHA 作为标签
+            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ (github.ref == 'refs/heads/main' && 'latest') || (github.ref == 'refs/heads/develop' && 'develop') }} # 如果是 main 分支，打 latest 标签；如果是 develop 分支，打 develop 标签
+
+  #----------------------------------------------------
+  # 部署 Job (示例, 需要根据您的实际情况修改)
+  #----------------------------------------------------
+  deploy:
+    name: Deploy to Production/Staging
+    needs: [frontend-ci, backend-ci] # 依赖前端和后端 CI Job 成功完成
+    runs-on: ubuntu-latest
+    # 仅在推送到 main (生产环境) 或 develop (预发/测试环境) 分支时执行部署
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+
+    environment: # 定义部署环境，可以关联 GitHub Environment Secrets 和审批规则
+      name: ${{ (github.ref == 'refs/heads/main' && 'production') || 'staging' }}
+      url: ${{ (github.ref == 'refs/heads/main' && 'https://your-prod-url.com') || 'https://your-staging-url.com' }} # 部署后访问的 URL
+
+    steps:
+      - name: Checkout code (如果部署脚本在仓库中)
+        uses: actions/checkout@v4
+
+      - name: Download frontend build artifact (如果需要部署前端静态文件)
+        if: needs.frontend-ci.result == 'success' # 确保前端构建成功
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-build
+          path: ./frontend-dist # 下载到指定目录
+
+      - name: Determine Deployment Target and Secrets
+        id: deploy-vars
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "DEPLOY_HOST=${{ secrets.PROD_DEPLOY_HOST }}" >> $GITHUB_OUTPUT
+            echo "DEPLOY_USER=${{ secrets.PROD_DEPLOY_USER }}" >> $GITHUB_OUTPUT
+            echo "SSH_PRIVATE_KEY=${{ secrets.PROD_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "DOCKER_IMAGE_TAG=latest" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.ref }}" == "refs/heads/develop" ]]; then
+            echo "DEPLOY_HOST=${{ secrets.STAGING_DEPLOY_HOST }}" >> $GITHUB_OUTPUT
+            echo "DEPLOY_USER=${{ secrets.STAGING_DEPLOY_USER }}" >> $GITHUB_OUTPUT
+            echo "SSH_PRIVATE_KEY=${{ secrets.STAGING_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "DOCKER_IMAGE_TAG=develop" >> $GITHUB_OUTPUT
+          fi
+          echo "BACKEND_IMAGE_NAME=${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend" >> $GITHUB_OUTPUT
+
+      # 示例 1: 使用 SSH 部署 Docker 容器到服务器
+      - name: Deploy Backend to Server via SSH
+        if: steps.deploy-vars.outputs.DEPLOY_HOST != '' # 仅当 DEPLOY_HOST 有值时执行
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ steps.deploy-vars.outputs.DEPLOY_HOST }}
+          username: ${{ steps.deploy-vars.outputs.DEPLOY_USER }}
+          key: ${{ steps.deploy-vars.outputs.SSH_PRIVATE_KEY }}
+          script: |
+            set -e # 如果任何命令失败则退出
+            echo "Starting deployment of backend..."
+            # 停止并移除旧容器 (如果存在)
+            docker stop ai-education-backend-container || true
+            docker rm ai-education-backend-container || true
+            # 拉取最新的 Docker 镜像
+            docker pull ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
+            # 运行新容器 (请根据您的后端配置修改端口映射和环境变量)
+            docker run -d --name ai-education-backend-container \
+              -p 8000:8000 \
+              -e SECRET_KEY=${{ secrets.BACKEND_SECRET_KEY }} \
+              -e DATABASE_URL=${{ secrets.BACKEND_DATABASE_URL }} \
+              --restart unless-stopped \
+              ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
+            echo "Backend deployment completed."
+
+      # 示例 2: 使用 rsync 部署前端静态文件到服务器 (假设与后端部署在同一台服务器)
+      - name: Deploy Frontend to Server via rsync (over SSH)
+        if: steps.deploy-vars.outputs.DEPLOY_HOST != '' && needs.frontend-ci.result == 'success'
+        uses: appleboy/scp-action@master # scp-action 也可以用于 rsync (通过 ssh_options)
+        with:
+          host: ${{ steps.deploy-vars.outputs.DEPLOY_HOST }}
+          username: ${{ steps.deploy-vars.outputs.DEPLOY_USER }}
+          key: ${{ steps.deploy-vars.outputs.SSH_PRIVATE_KEY }}
+          source: "./frontend-dist/" # 前端构建产物目录
+          target: "/var/www/ai-education-frontend" # 服务器上部署前端的路径 (请修改)
+          # 如果使用 rsync，可能需要自定义命令或使用其他 action，例如 easingthemes/ssh-deploy
+          # 或者使用 appleboy/ssh-action 直接执行 rsync 命令
+          # script: |
+          #   rsync -avz --delete ./frontend-dist/ ${{ steps.deploy-vars.outputs.DEPLOY_USER }}@${{ steps.deploy-vars.outputs.DEPLOY_HOST }}:/var/www/ai-education-frontend
+
+      # 其他部署方式：
+      # - 推送到云平台 (AWS, Google Cloud, Azure)
+      # - 使用 serverless 框架部署
+      # - 更新 Kubernetes manifests
+      # 请根据您的实际部署策略选择合适的 Actions 或编写脚本。
+
+      - name: Deployment successful
+        run: echo "Deployment to ${{ steps.deploy-vars.outputs.DEPLOY_HOST }} completed."
