@@ -132,7 +132,7 @@ jobs:
 
     environment: # 定义部署环境，可以关联 GitHub Environment Secrets 和审批规则
       name: ${{ (github.ref == 'refs/heads/main' && 'production') || 'staging' }}
-      url: ${{ (github.ref == 'refs/heads/main' && 'https://your-prod-url.com') || 'https://your-staging-url.com' }} # 部署后访问的 URL
+      url: ${{ (github.ref == 'refs/heads/main' && 'http://47.96.168.108:8000') || 'http://47.96.168.108:8000' }} # 部署后访问的 URL
 
     steps:
       - name: Checkout code (如果部署脚本在仓库中)
@@ -195,7 +195,7 @@ jobs:
           username: ${{ steps.deploy-vars.outputs.DEPLOY_USER }}
           key: ${{ steps.deploy-vars.outputs.SSH_PRIVATE_KEY }}
           source: "./frontend-dist/" # 前端构建产物目录
-          target: "/var/www/ai-education-frontend" # 服务器上部署前端的路径 (请修改)
+          target: "/opt/AIEducation/AIEducation_front" # 服务器上部署前端的路径 (请修改)
           # 如果使用 rsync，可能需要自定义命令或使用其他 action，例如 easingthemes/ssh-deploy
           # 或者使用 appleboy/ssh-action 直接执行 rsync 命令
           # script: |
