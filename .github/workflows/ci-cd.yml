@@ -117,8 +117,8 @@ jobs:
           file: ${{ env.BACKEND_DIR }}/Dockerfile # 指定 Dockerfile 路径 (假设存在)
           push: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') }} # 仅在推送到 main 或 develop 分支时推送
           tags: | # Docker 镜像标签
-            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ github.sha }} # 使用 Git SHA 作为标签
-            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ (github.ref == 'refs/heads/main' && 'latest') || (github.ref == 'refs/heads/develop' && 'develop') }} # 如果是 main 分支，打 latest 标签；如果是 develop 分支，打 develop 标签
+            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ github.sha }} 
+            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ (github.ref == 'refs/heads/main' && 'latest') || (github.ref == 'refs/heads/develop' && 'develop') }} 
 
   #----------------------------------------------------
   # 部署 Job (示例, 需要根据您的实际情况修改)
