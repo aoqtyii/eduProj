@@ -100,26 +100,24 @@ jobs:
       #     pytest
 
       # --- 后端 Docker 镜像构建 ---
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Login to Docker Hub (可选，如果需要推送到 Docker Hub)
-        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') # 仅在推送到 main 或 develop 分支时登录
+      - name: Login to Alibaba Cloud Container Registry (ACR)
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }} # 在 GitHub Secrets 中配置 DOCKERHUB_USERNAME
-          password: ${{ secrets.DOCKERHUB_TOKEN }}    # 在 GitHub Secrets 中配置 DOCKERHUB_TOKEN (Access Token)
+          registry: ${{ secrets.ACR_REGISTRY_HOST }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }} # 使用之前配置的DOCKERHUB_USERNAME，但现在它代表ACR用户名
+          password: ${{ secrets.DOCKERHUB_TOKEN }}    # 使用之前配置的DOCKERHUB_TOKEN，但现在它代表ACR密码/token
 
-      - name: Build and push backend Docker image
+      - name: Build and push backend Docker image to ACR
         uses: docker/build-push-action@v5
         with:
-          context: ${{ env.BACKEND_DIR }} # Dockerfile 的上下文路径
-          file: ${{ env.BACKEND_DIR }}/Dockerfile # 指定 Dockerfile 路径 (假设存在)
-          push: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') }} # 仅在推送到 main 或 develop 分支时推送
-          tags: | # Docker 镜像标签
-            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ github.sha }} 
-            ${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend:${{ (github.ref == 'refs/heads/main' && 'latest') || (github.ref == 'refs/heads/develop' && 'develop') }} 
-
+          context: ${{ env.BACKEND_DIR }}
+          file: ${{ env.BACKEND_DIR }}/Dockerfile
+          push: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') }}
+          tags: |
+            ${{ secrets.ACR_REGISTRY_HOST }}/${{ secrets.ACR_NAMESPACE }}/ai-education-backend:${{ github.sha }}
+            ${{ secrets.ACR_REGISTRY_HOST }}/${{ secrets.ACR_NAMESPACE }}/ai-education-backend:${{ (github.ref == 'refs/heads/main' && 'latest') || (github.ref == 'refs/heads/develop' && 'develop') }}
+      
   #----------------------------------------------------
   # 部署 Job (示例, 需要根据您的实际情况修改)
   #----------------------------------------------------
@@ -163,7 +161,7 @@ jobs:
             echo "EOF" >> $GITHUB_OUTPUT
             echo "DOCKER_IMAGE_TAG=develop" >> $GITHUB_OUTPUT
           fi
-          echo "BACKEND_IMAGE_NAME=${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend" >> $GITHUB_OUTPUT
+          echo "BACKEND_IMAGE_NAME=${{ secrets.ACR_REGISTRY_HOST }}/${{ secrets.ACR_NAMESPACE }}/ai-education-backend" >> $GITHUB_OUTPUT
 
       # 示例 1: 使用 SSH 部署 Docker 容器到服务器
       - name: Deploy Backend to Server via SSH
@@ -174,20 +172,19 @@ jobs:
           username: ${{ steps.deploy-vars.outputs.DEPLOY_USER }}
           key: ${{ steps.deploy-vars.outputs.SSH_PRIVATE_KEY }}
           script: |
-            set -e # 如果任何命令失败则退出
+            set -e
             echo "Starting deployment of backend..."
-            # 停止并移除旧容器 (如果存在)
             docker stop ai-education-backend-container || true
             docker rm ai-education-backend-container || true
-            # 拉取最新的 Docker 镜像
+            echo "Pulling image from ACR: ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}"
             docker pull ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
-            # 运行新容器 (请根据您的后端配置修改端口映射和环境变量)
+            echo "Running new container..."
             docker run -d --name ai-education-backend-container \
-              -p 8000:8000 \
-              -e SECRET_KEY=${{ secrets.BACKEND_SECRET_KEY }} \
-              -e DATABASE_URL=${{ secrets.BACKEND_DATABASE_URL }} \
-              --restart unless-stopped \
-              ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
+                -p 8000:8000 \
+                -e SECRET_KEY=${{ secrets.BACKEND_SECRET_KEY }} \
+                -e DATABASE_URL=${{ secrets.BACKEND_DATABASE_URL }} \
+                --restart unless-stopped \
+                ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
             echo "Backend deployment completed."
 
       # 示例 2: 使用 rsync 部署前端静态文件到服务器 (假设与后端部署在同一台服务器)
