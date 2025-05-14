@@ -187,6 +187,7 @@ jobs:
                 ${{ steps.deploy-vars.outputs.BACKEND_IMAGE_NAME }}:${{ steps.deploy-vars.outputs.DOCKER_IMAGE_TAG }}
             echo "Backend deployment completed."
 
+
       # 示例 2: 使用 rsync 部署前端静态文件到服务器 (假设与后端部署在同一台服务器)
       - name: Deploy Frontend to Server via rsync (over SSH)
         if: steps.deploy-vars.outputs.DEPLOY_HOST != '' && needs.frontend-ci.result == 'success'
