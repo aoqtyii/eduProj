@@ -151,12 +151,16 @@ jobs:
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             echo "DEPLOY_HOST=${{ secrets.PROD_DEPLOY_HOST }}" >> $GITHUB_OUTPUT
             echo "DEPLOY_USER=${{ secrets.PROD_DEPLOY_USER }}" >> $GITHUB_OUTPUT
-            echo "SSH_PRIVATE_KEY=${{ secrets.PROD_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "SSH_PRIVATE_KEY<<EOF" >> $GITHUB_OUTPUT
+            echo "${{ secrets.PROD_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
             echo "DOCKER_IMAGE_TAG=latest" >> $GITHUB_OUTPUT
           elif [[ "${{ github.ref }}" == "refs/heads/develop" ]]; then
             echo "DEPLOY_HOST=${{ secrets.STAGING_DEPLOY_HOST }}" >> $GITHUB_OUTPUT
             echo "DEPLOY_USER=${{ secrets.STAGING_DEPLOY_USER }}" >> $GITHUB_OUTPUT
-            echo "SSH_PRIVATE_KEY=${{ secrets.STAGING_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "SSH_PRIVATE_KEY<<EOF" >> $GITHUB_OUTPUT
+            echo "${{ secrets.STAGING_SSH_PRIVATE_KEY }}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
             echo "DOCKER_IMAGE_TAG=develop" >> $GITHUB_OUTPUT
           fi
           echo "BACKEND_IMAGE_NAME=${{ secrets.DOCKERHUB_USERNAME }}/ai-education-backend" >> $GITHUB_OUTPUT
